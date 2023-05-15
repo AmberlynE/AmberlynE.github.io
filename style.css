@@ -1,107 +1,94 @@
 body {
-  background-color: #3e1d3e;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-    to {
-      opacity: 1;
-    }
-  }
-}
-#intro {
-  color: white;
-  height: 100vh;
-}
-
-#intro h1 {
-  font-size: 65px;
-  animation: fadein ease-in 5s;
-}
-
-#intro code {
-  font-size: 1.3rem;
-}
-
-#arrowDown {
-  color: white;
-  font-size: 75px;
-  position: absolute;
-  bottom: 25px;
-  left: calc(50% - 37px);
-}
-
-#about {
-  color: white;
-  background-color: #7e7f9a;
-  padding: 30px;
-}
-
-#contact {
-  background-color: #82204a;
-  color: white;
-  padding: 30px;
-}
-
-#contact a {
-  color: white;
-}
-
-form input,
-form textarea {
-  width: 100%;
-  padding: 10px;
-}
-
-#email {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-form .btn-primary {
-  width: 100%;
-  margin-top: 15px;
-  background-color: #124559;
-}
-
-#portfolio {
-  background-color: #160f29;
-  color: white;
-  padding: 30px;
-}
-
-footer {
-  color: white;
-}
-
-section {
-  box-shadow: -10px 0 25px #3e1d3e;
-}
-
-.navbar {
-  background-color: #598392 !important;
-}
-
-main {
-  background: #7e7f9a;
-  color: white;
-  padding: 30px;
-}
-
-main img {
-  border-radius: 10px;
-}
-
-.stack {
-  padding: 5px;
   background-color: black;
-  border-radius: 5px;
-  font-weight: bold;
+  color: white;
+  font-family: roboto, sans-serif;
+}
+#topBar {
+  background-color: black;
+  height: 45px;
 }
 
-@media only screen and (max-width: 600px) {
-  #intro h1 {
-    font-size: 50px;
-  }
+#selectors {
+  color: white;
+  font-family: roboto, sans-serif;
+  padding-top: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#topAlfix {
+  color: red;
+}
+
+#content {
+  background-image: url(img/cover.jpg);
+  min-height: 550px;
+  background-size: cover;
+}
+
+.col-5 {
+  padding-top: 225px;
+}
+
+#series {
+  color: rgb(207, 204, 204);
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.topTen {
+  height: 25px;
+}
+#number2 {
+  padding-left: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+#top {
+  margin-left: 20px;
+}
+
+h5 {
+  margin-top: 10px;
+}
+
+#play {
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 50px;
+  font-weight: 500;
+  padding: 5px 20px 5px 20px;
+}
+#moreInfo {
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 500;
+  background: rgba(120, 120, 120, 0.8);
+  padding: 5px 20px 5px 20px;
+}
+#buttonRow span {
+  vertical-align: sub;
+  margin-right: 7px;
+}
+
+#ratingCol {
+  margin-top: 450px;
+}
+.refresh {
+  border: none;
+  color: grey;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#rating {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 20px 5px 20px;
+  border-left: 2px solid white;
+}
+
+button span {
+  vertical-align: auto;
 }
