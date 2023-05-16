@@ -1,2 +1,0 @@
-# AmberlynE.github.io
-Portfolio
